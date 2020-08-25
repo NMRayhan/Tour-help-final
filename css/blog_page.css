@@ -1,0 +1,248 @@
+*{margin:0;padding:0}
+body{
+	font-family:Arial, sans-sarif !important; 
+	transition: all 0.5s ease;
+	-webki-transition: all 0.5s ease;
+}
+.container_full{
+	width:100%;
+}
+.container{
+	width:980px;
+	display:block;
+	margin:0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:normal;
+}
+a{
+	text-decoration:none;
+}
+p{
+	line-height:150%;
+	margin-bottom:2em;
+}
+.fix{
+	overflow:hidden;
+}
+.header_bg{
+	background:#292929;
+}
+#header .logo_left{
+	float:left;
+}
+#header .logo_left a{
+	font-family:lato;
+	font-weight:bold;
+	font-size:40px;
+	color:#fff;
+	padding-top:30px;
+	text-decoration:none;
+}
+nav{
+	float:right;
+}
+nav #menu{
+	list-style:none;
+}
+#header>nav #menu li{
+	float:left;
+	border-right:1px solid #1E1E1E;
+}
+#header>nav #menu li:first-child{
+	border-left:1px solid #1E1E1E;
+}
+#header>nav #menu li a{
+	padding:50px 30px;
+	display:block;
+	color:#fff;
+	font-family:lato;
+	font-weight:bold;
+	font-size:16px;
+	border-bottom:5px solid #1E1E1E;
+	transition:0.3s all ease;
+}
+#header>nav #menu li a:hover{
+	border-bottom:5px solid #41C84C;
+	color:#41C84C;
+}
+#header>nav #menu li.active a{
+	border-bottom:5px solid #41C84C;
+	color:#41C84C;
+}
+
+.content_wrapper_bg{
+	border-top:5px solid #1E1E1E;
+	margin:-5px;
+	border-bottom:1px solid #E1E0E0;
+}
+.content_wrapper{
+	padding-top:75px;
+	border-left:1px solid #E1E0E0;
+	border-right:1px solid #E1E0E0;
+	overflow:hidden;
+}
+.left_content{
+	float:left;
+	width:620px;
+	margin-right:70px;
+}
+.left_content .single_post{
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.left_content .single_post img{
+	width:620px;
+	height:308px;
+}
+.left_content .single_post h2{
+	font-family:lato;
+	font-weight:bold;
+	font-size:28px;
+	text-transform:uppercase;
+	color:#4f4e4e;
+	padding-left:15px;
+	padding-top:15px;
+}
+.left_content .single_post p{
+	font-family:lato;
+	font-size:16px;
+	color:#606060;
+	padding-left:15px;
+	padding-top:30px;
+}
+.left_content .single_post .continue_r{
+	font-family:lato;
+	font-weight:bold;
+	font-size:16px;
+	color:#c2c1c1;
+	border:1px solid #E1E0E0;
+	display:inline-block;
+	padding:10px;
+	border-radius:20px;
+	margin-left:30px;
+}
+#sidebar{
+	float:right;
+	width:280px;
+}
+#sidebar .single_sidebar{
+	margin-bottom:40px;
+	overflow:hidden;
+}
+#sidebar .single_sidebar h2{
+	font-family:lato;
+	font-weight:bold;
+	font-size:16px;
+	text-transform:uppercase;
+	color:#6c6969;
+	padding-top:15px;
+	padding-left:20px;
+	padding-bottom:20px;
+	border-left:3px solid #41C84C;
+	margin-bottom:15px;
+	background: #f2f3f3;
+}
+#sidebar .single_sidebar p{
+	font-family:lato;
+	font-size:16px;
+	color:#737373;
+	padding-top:10px;
+	padding-left:10px;
+	width:95%;
+}
+#sidebar .single_sidebar .search_box{
+	width:259px;
+	float:right;
+	height:50px;
+	border:1px solid #E1E0E0;
+	border-right:none;
+	
+}
+.email_submit{
+	position:relative;
+}
+.email_submit input{
+	width:278px;
+	height:50px;
+	border:1px solid #E1E0E0;
+}
+.email_submit input[type="submit"]{
+	float:right;
+	background:url(img/arrow_Circle_sign.png) no-repeat;
+	position:absolute;
+	width:24px;
+	height:24px;
+	text-indent:-99999px;
+	display: flex;
+	border:none;
+	top:15px;
+	right:20px;
+	cursor:pointer;
+}
+.single_sidebar input[type="text"], .single_sidebar input[type="email"]{
+	padding-left:20px;
+}
+.content_bottom{
+	border-top:1px solid #E1E0E0;
+	border-left:1px solid #E1E0E0;
+	border-right:1px solid #E1E0E0;
+	overflow:hidden;
+	padding:25px 0;
+}
+
+.previous{
+	float: left;
+    border: 1px solid #E1E0E0;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: #818181;
+	font-family:lato;
+	font-size:18px;
+	font-weight:bold;
+
+}
+.Next{
+	float:right;
+    border: 1px solid #E1E0E0;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: #818181;
+	font-family:lato;
+	font-size:18px;
+	font-weight:bold;
+}
+#footer{
+	text-align:center;
+}
+
+
+#footer h1{
+	color: #292929;
+	font-family:lato;
+	font-size:40px;
+	font-weight:bold;
+}
+#footer p{
+	color: #a6a6a6;
+	font-family:lato;
+	font-size:13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

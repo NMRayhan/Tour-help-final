@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Membership Page</title>
+	<link rel="stylesheet" href="css/Need_Cab.css" />
+	<link rel="stylesheet" href="css/FormStyle.css" />
+	<link rel="stylesheet" href="css/Home_style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+</head>
+<body>
+	<div class="container_full header_bg">
+		<div class="fix container">
+			<header id="header">
+				<div class="logo_left">
+					<h1><a href="Home.html">Tour Help</a></h1>
+				</div>
+				<nav>
+					<ul id="menu">
+						<li ><a href="Home.html">Home</a></li>
+						<li ><a href="blog_page.html">blog</a></li>
+						<li ><a href="#">Booking</a></li>
+						<li ><a href="Attraction_Page.html">Attraction</a></li>
+						<li ><a href="Trip_Plan.html">Plan a Trip</a></li>
+						<li class="active"><a href="Membership_page.html">Membership</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+	
+	<div class="container_full content_wrapper_bg">
+		<div class="fix container sideMargin">
+			<div class = "register formHead">
+				<h2>Register Here</h2>
+				<form method="POST" id="register" action="insert.php">
+					<div class="form">
+						<label> First Name: </label><br>
+						<input type="text" name="First_name" id="name"
+						placeholder="Enter your First name" required /><br><br>
+						
+						<label> Last Name: </label><br>
+						<input type="text" name="Last_name" id="name"
+						placeholder="Enter your Last name" required /><br><br>
+						
+						<label> Mobile Number: </label><br>
+						<select name="phone_Code" id="ph" required >
+							<option value="+91" >+91</option>
+							<option value="+99" >+99</option>
+							<option value="+10" >+10</option>
+							<option value="+880" selected="" >+880</option>
+							<option value="+30" >+30</option>
+							<option value="+20" >+20</option>
+						</select>
+						<input type="number" name="phone_Number" id="num"
+						placeholder="Enter your mobile number" required /><br><br> 
+						
+						<input type = "radio" name="Gender" value="M" id="male" required /><span
+						id="male">&nbsp; Male</span>&nbsp;&nbsp;
+						
+						<input type = "radio" name="Gender" value="F" id="male" required /><span
+						id="male">&nbsp; Female</span>&nbsp;&nbsp;<br><br>
+						
+						<label> Email: </label><br>
+						<input type="email" name="Email" id="name"
+						placeholder="Enter your Email" required /><br><br>
+						
+						<label> User Name: </label><br>
+						<input type="text" name="User_name" id="name"
+						placeholder="Enter your Last name" required /><br><br>
+						
+						<label> Password: </label><br>
+						<input type="password" name="password" id="name"
+						placeholder="Enter your password" required /><br><br>
+						<div id="button_group">
+							<button class="signUp_button" type="submit">Submit</button>
+						
+							<button class="reset_button" type="reset">Reset</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div> 
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="container_full footer_top">
+		<div class="fix container">
+			<footer id="footer">
+				<h1>Toure Help</h1>
+				<p>&copy; All Right Reserved By- Nur Mohammad Rayhan</p>
+				<div class="social_area">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-youtube"></a>
+					<a href="#" class="fa fa-instagram"></a>
+				</div>
+			</footer>
+		</div>
+	</div> 
+</body>
+</html>
+<!--
+	<div class="container_full">
+		<div class="fix container">
+
+		</div>
+	</div> 
+-->
